@@ -1,8 +1,13 @@
 {
   "name": "@rivuty/http-status",
   "version": "1.0.0",
+  "scripts": {
+    "format:check": "oxfmt --check",
+    "format:write": "oxfmt --write"
+  },
   "devDependencies": {
-    "@types/node": "^25.5.0"
+    "@types/node": "^25.5.0",
+    "oxfmt": "^0.41.0"
   },
   "engines": {
     "node": "25.8.1"
