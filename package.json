@@ -2,13 +2,17 @@
   "name": "@rivuty/http-status",
   "version": "1.0.0",
   "scripts": {
+    "lint:check": "oxlint",
+    "lint:fix": "oxlint --fix",
     "format:check": "oxfmt --check",
-    "format:write": "oxfmt --write",
+    "format:fix": "oxfmt --write",
     "typecheck": "tsc"
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
     "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
+    "oxlint-tsgolint": "^0.17.0",
     "typescript": "^5.9.3"
   },
   "engines": {
