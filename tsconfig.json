@@ -2,11 +2,12 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "isolatedModules": true,
     "lib": ["ESNext"],
     "skipLibCheck": true,
     "noEmit": true,
     "strict": true
-  }
+  },
+  "include": ["src"]
 }

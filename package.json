@@ -1,7 +1,19 @@
 {
   "name": "@rivuty/http-status",
   "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
   "scripts": {
+    "build": "vite build",
     "lint:check": "oxlint",
     "lint:fix": "oxlint --fix",
     "format:check": "oxfmt --check",
@@ -13,7 +25,9 @@
     "oxfmt": "^0.41.0",
     "oxlint": "^1.56.0",
     "oxlint-tsgolint": "^0.17.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vite": "^8.0.1",
+    "vite-plugin-dts": "^4.5.4"
   },
   "engines": {
     "node": "25.8.1"
