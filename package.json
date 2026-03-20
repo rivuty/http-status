@@ -1,6 +1,6 @@
 {
   "name": "@rivuty/http-status",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Type-safe HTTP status codes",
   "keywords": [
     "http-status",
@@ -23,6 +23,9 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "vite build",
