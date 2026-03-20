@@ -16,6 +16,7 @@
   "rules": {
     "import/no-named-export": "off",
     "import/prefer-default-export": "off",
+    "sort-imports": "off",
     "sort-keys": "off",
     "unicorn/filename-case": "off"
   },
@@ -24,6 +25,17 @@
       "files": ["*.config.ts"],
       "rules": {
         "import/no-default-export": "off"
+      }
+    },
+    {
+      "files": ["*.test.ts"],
+      "plugins": ["vitest"],
+      "rules": {
+        "eslint/max-lines-per-function": "off",
+        "no-magic-numbers": "off",
+        "max-statements": "off",
+        "vitest/no-importing-vitest-globals": "off",
+        "vitest/prefer-describe-function-title": "off"
       }
     }
   ]
