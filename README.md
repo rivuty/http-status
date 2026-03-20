@@ -13,7 +13,7 @@ pnpm add @rivuty/http-status
 ## Usage
 
 ```ts
-import { HttpStatusCode } from "@rivuty/http-status";
+import { HttpStatusCode } from '@rivuty/http-status';
 
 response.status(HttpStatusCode.Ok);           // 200
 response.status(HttpStatusCode.NotFound);     // 404

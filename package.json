@@ -35,6 +35,7 @@
     "format:fix": "oxfmt --write",
     "typecheck": "tsc",
     "verify": "run-p -c lint format typecheck",
+    "prepublishOnly": "run-p -c verify build",
     "release": "release-it"
   },
   "devDependencies": {
@@ -47,9 +48,6 @@
     "typescript": "^5.9.3",
     "vite": "^8.0.1",
     "vite-plugin-dts": "^4.5.4"
-  },
-  "engines": {
-    "node": "25.8.1"
   },
   "packageManager": "pnpm@10.32.1"
 }
