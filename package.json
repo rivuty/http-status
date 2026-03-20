@@ -1,8 +1,18 @@
 {
   "name": "@rivuty/http-status",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "description": "Type-safe HTTP status codes",
+  "keywords": [
+    "http-status",
+    "http-status-code",
+    "status-code"
+  ],
   "license": "MIT",
   "author": "Oleg Michailov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rivuty/http-status.git"
+  },
   "files": [
     "dist"
   ],
@@ -21,7 +31,8 @@
     "format": "oxfmt --check",
     "format:fix": "oxfmt --write",
     "typecheck": "tsc",
-    "verify": "run-p -c lint format typecheck"
+    "verify": "run-p -c lint format typecheck",
+    "release": "release-it"
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
@@ -29,6 +40,7 @@
     "oxfmt": "^0.41.0",
     "oxlint": "^1.56.0",
     "oxlint-tsgolint": "^0.17.0",
+    "release-it": "^19.2.4",
     "typescript": "^5.9.3",
     "vite": "^8.0.1",
     "vite-plugin-dts": "^4.5.4"
