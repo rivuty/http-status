@@ -14,6 +14,7 @@
     "typeAware": true
   },
   "rules": {
+    "import/consistent-type-specifier-style": ["error", "prefer-inline"],
     "import/no-named-export": "off",
     "import/prefer-default-export": "off",
     "sort-imports": "off",
