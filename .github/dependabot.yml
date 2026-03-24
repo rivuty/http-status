@@ -5,3 +5,7 @@ updates:
     schedule:
       interval: 'daily'
     versioning-strategy: increase
+    ignore:
+      - dependency-name: '*'
+        update-types:
+          - 'version-update:semver-patch'
