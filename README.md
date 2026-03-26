@@ -112,6 +112,10 @@ A readonly object mapping semantic names to their numeric HTTP status codes.
 | `NotExtended`                   | 510  |
 | `NetworkAuthenticationRequired` | 511  |
 
+## Contributing
+
+Thank you for considering contributing to @rivuty/http-status! You can read the contribution guide [here](.github/CONTRIBUTING.md).
+
 ## License
 
 @rivuty/http-status is open-sourced under the [MIT license](LICENSE)
