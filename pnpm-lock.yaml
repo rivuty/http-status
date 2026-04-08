@@ -18,8 +18,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0(oxfmt@0.44.0)
       '@rivuty/oxlint-config':
-        specifier: ^1.1.0
-        version: 1.1.0(oxlint@1.58.0(oxlint-tsgolint@0.19.0))
+        specifier: ^1.2.0
+        version: 1.2.0(oxlint@1.58.0(oxlint-tsgolint@0.19.0))
       '@types/node':
         specifier: ^25.5.0
         version: 25.5.0
@@ -657,8 +657,8 @@ packages:
     peerDependencies:
       oxfmt: '>=0.43.0'
 
-  '@rivuty/oxlint-config@1.1.0':
-    resolution: {integrity: sha512-7QDZMgGLO+TU1RfMqXtFAUyHZhDGNwFBRm5Drh/3wytJkb2vcY/qo9tfUfVkqpBCOrD33eDIUu07hge+Yn0uDQ==}
+  '@rivuty/oxlint-config@1.2.0':
+    resolution: {integrity: sha512-U3+0cSbaGBZdstiZbuofswOhbtmiyU7V1lFscth0OSYcsPS/ERSVI0S1FZZjbXT0dpUpgTAmSjaSrOO+p3Gouw==}
     peerDependencies:
       oxlint: '>=1.57.0'
 
@@ -2726,7 +2726,7 @@ snapshots:
     dependencies:
       oxfmt: 0.44.0
 
-  '@rivuty/oxlint-config@1.1.0(oxlint@1.58.0(oxlint-tsgolint@0.19.0))':
+  '@rivuty/oxlint-config@1.2.0(oxlint@1.58.0(oxlint-tsgolint@0.19.0))':
     dependencies:
       oxlint: 1.58.0(oxlint-tsgolint@0.19.0)
 
