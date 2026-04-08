@@ -13,16 +13,16 @@ pnpm add @rivuty/http-status
 ## Usage
 
 ```ts
-import { HttpStatusCode } from '@rivuty/http-status';
+import { HttpStatusCodes } from '@rivuty/http-status';
 
-response.status(HttpStatusCode.Ok); // 200
-response.status(HttpStatusCode.NotFound); // 404
-response.status(HttpStatusCode.Unauthorized); // 401
+response.status(HttpStatusCodes.Ok); // 200
+response.status(HttpStatusCodes.NotFound); // 404
+response.status(HttpStatusCodes.Unauthorized); // 401
 ```
 
 ## API
 
-### `HttpStatusCode`
+### `HttpStatusCodes`
 
 A readonly object mapping semantic names to their numeric HTTP status codes.
 

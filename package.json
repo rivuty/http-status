@@ -5,7 +5,8 @@
   "keywords": [
     "http-status",
     "http-status-code",
-    "status-code"
+    "status-code",
+    "typescript"
   ],
   "license": "MIT",
   "author": "Oleg Michailov",
