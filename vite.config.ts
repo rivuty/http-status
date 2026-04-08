@@ -1,5 +1,5 @@
-import { defineConfig } from 'vitest/config';
 import dts from 'vite-plugin-dts';
+import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
   plugins: [dts({ exclude: ['**/*.test.ts'] })],
