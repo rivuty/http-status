@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1
+
+- Fix types generation
+
 ## 2.0.0
 
 - Rename `HttpStatusCode` to `HttpStatusCodes`
